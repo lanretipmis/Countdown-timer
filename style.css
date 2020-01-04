@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+    text-align: center;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+
+    background-color: #1fc69d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3rem;
+}
+
+.clock-column{
+    margin-right: 2rem;
+}
