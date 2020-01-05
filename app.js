@@ -15,11 +15,11 @@ function showTime(){
    let minutesData = (hoursData - Math.floor(hoursData))*60;
    let secData = (minutesData - Math.floor(minutesData))*60;
 
-
    days.innerHTML = Math.floor(daysData);
    hours.innerHTML = Math.floor(hoursData);
    minutes.innerHTML = Math.floor(minutesData);
    sec.innerHTML = Math.floor(secData);
+
 }
 
 function startTimer(){
