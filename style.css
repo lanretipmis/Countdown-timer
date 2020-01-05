@@ -42,3 +42,9 @@ body{
 .clock-lable{
     border-top: 2.5px solid black;
 }
+
+@media (max-width: 600px) {
+    body{
+        background-color:red;
+    }    
+}
