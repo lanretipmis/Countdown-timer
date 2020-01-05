@@ -24,6 +24,9 @@ body{
 .inputDate{
     font-size: 1.8rem;
     font-family: 'Roboto Mono', monospace;
+    border-radius: 3px;
+    border:none;
+    padding: 2px;
 }
 
 .container{
